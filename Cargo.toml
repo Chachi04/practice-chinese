@@ -1,6 +1,6 @@
 [package]
 name = "practice-chinese"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jiaqi Wang"]
 description = "A tool to practice Chinese."
