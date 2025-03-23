@@ -77,8 +77,12 @@ fn main() {
             "Exit" => break,
             choice => match current_state {
                 MenuState::HskLevel => history.push(MenuState::Mission(choice.to_string())),
-                MenuState::Mission(_) => {
-                    let mut terms = v["HSK1"][choice].as_array().unwrap().to_vec();
+                MenuState::Mission(hsk_level) => {
+                    let mut terms = v[&hsk_level][choice].as_array().unwrap().to_vec();
+                    if terms.is_empty() {
+                        println!("No terms found for this mission");
+                        break;
+                    }
                     start_practice(&mut terms).unwrap();
                     break;
                 }
