@@ -1,0 +1,545 @@
+{
+  "HSK1": {
+    "Mission 1": [
+      {
+        "hanzi": "你喜欢吃中国菜吗？",
+        "pinyin": "ni xi huan zhi zhong guo zai ma?"
+      },
+      {
+        "hanzi": "今晚我做菜。",
+        "pinyin": "jin wan wo zuo cai."
+      },
+      {
+        "hanzi": "你喝咖啡还是茶。",
+        "pinyin": "ni he ka fei hai shi cha."
+      },
+      {
+        "hanzi": "你喜欢喝红茶还是绿茶。",
+        "pinyin": "ni xi huan he hong cha hai shi lu cha."
+      },
+      {
+        "hanzi": "我想吃饺子。",
+        "pinyin": "wo xiang chi jiao zi."
+      },
+      {
+        "hanzi": "大卫爱吃中国菜。",
+        "pinyin": "da wei ai chi zhong guo cai."
+      },
+      {
+        "hanzi": "我要喝水。",
+        "pinyin": "wo yao he shui."
+      },
+      {
+        "hanzi": "先生，您喝点什么？",
+        "pinyin": "xian sheng, ni he dian shen me?"
+      },
+      {
+        "hanzi": "我要一碗米饭。",
+        "pinyin": "wo yao yi wan mi fan."
+      },
+      {
+        "hanzi": "你爱吃米饭还是面条？",
+        "pinyin": "ni ai chi mi fan hai shi mian tiao?"
+      },
+      {
+        "hanzi": "你去哪儿？",
+        "pinyin": "ni qu na er?"
+      },
+      {
+        "hanzi": "我的书在那儿？",
+        "pinyin": "wo de shu zai na er?"
+      },
+      {
+        "hanzi": "我有一个苹果。",
+        "pinyin": "wo you yi ge ping guo."
+      },
+      {
+        "hanzi": "小女孩儿正在喝果汁。",
+        "pinyin": "xiao nv hai er zheng zai he guo zhi."
+      },
+      {
+        "hanzi": "他是王先生。",
+        "pinyin": "ta shi wang xian sheng."
+      },
+      {
+        "hanzi": "这些衣服都是章小姐的。",
+        "pinyin": "zhe xie yi fu dou shi zhang xiao jie de."
+      },
+      {
+        "hanzi": "请给我一杯水, 谢谢。",
+        "pinyin": "qing gei wo yi bei shui, xie xie."
+      },
+      {
+        "hanzi": "这是我的朋友。",
+        "pinyin": "zhe shi wo de peng you."
+      },
+      {
+        "hanzi": "这快手表是我爸爸的",
+        "pinyin": "zhe kuai shou biao shi wo ba ba de."
+      },
+      {
+        "hanzi": "你是哪个国家的人？",
+        "pinyin": "ni shi na ge guo jia de ren?"
+      },
+      {
+        "hanzi": "你认识那个老师？",
+        "pinyin": "ni ren shi na ge lao shi?"
+      },
+      {
+        "hanzi": "我不认识那个人。",
+        "pinyin": "wo bu ren shi na ge ren."
+      },
+      {
+        "hanzi": "我去过那个地方。",
+        "pinyin": "wo qu guo na ge di fang."
+      }
+    ],
+    "Mission 2": [
+      {
+        "hanzi": "你要买什么东西？",
+        "pinyin": "ni yao mai shen me dong xi"
+      },
+      {
+        "hanzi": "妈妈去超市买东西了。",
+        "pinyin": "mama qu chao shi mai dong xi le."
+      },
+      {
+        "hanzi": "这个东西多少钱？",
+        "pinyin": "zhe ge dong xi duo shao qian?"
+      },
+      {
+        "hanzi": "一斤苹果多少钱？",
+        "pinyin": "yi jin ping guo duo shao qian?"
+      },
+      {
+        "hanzi": "我有两个女儿。",
+        "pinyin": "wo you liang ge nv er."
+      },
+      {
+        "hanzi": "我要告诉你一个好消息。",
+        "pinyin": "wo yao gao su ni yi ge hao xiao xi."
+      },
+      {
+        "hanzi": "我喜欢红色和蓝色。",
+        "pinyin": "wo xi huan hong se he lan se."
+      },
+      {
+        "hanzi": "你和谁一起去？",
+        "pinyin": "ni he shui yi qi qu?"
+      },
+      {
+        "hanzi": "给你一块蛋糕。",
+        "pinyin": "gei ni yi kuai dan gao."
+      },
+      {
+        "hanzi": "一共五十块。",
+        "pinyin": "yi gong wu shi kuai."
+      },
+      {
+        "hanzi": "我去买东西。",
+        "pinyin": "wo qu mai dong xi."
+      },
+      {
+        "hanzi": "妈妈去超市买了点牛奶。",
+        "pinyin": "mama qu chao shi mai le dian niu nai."
+      },
+      {
+        "hanzi": "一共多少钱？",
+        "pinyin": "yi gong duo shao qian?"
+      },
+      {
+        "hanzi": "这件衣服多少钱？",
+        "pinyin": "zhe jian yi fu duo shao qian?"
+      },
+      {
+        "hanzi": "商店在哪里？",
+        "pinyin": "shang dian zai na li?"
+      },
+      {
+        "hanzi": "现在商店已经关门了。",
+        "pinyin": "xian zai shang dian yi jing guan men le."
+      },
+      {
+        "hanzi": "我爱吃水果。",
+        "pinyin": "wo ai chi shui guo."
+      },
+      {
+        "hanzi": "这家水果店的水果很贵。",
+        "pinyin": "zhe jia shui guo dian de shui guo hen gui."
+      },
+      {
+        "hanzi": "你的儿子几岁了？",
+        "pinyin": "ni de er zi ji sui le?"
+      },
+      {
+        "hanzi": "今年弟弟七岁了，可以上学了。",
+        "pinyin": "jin nian di di qi sui le, ke yi shang xue le."
+      },
+      {
+        "hanzi": "我要买一些水果。",
+        "pinyin": "wo yao mai yi xie shui guo."
+      },
+      {
+        "hanzi": "桌上这些书是你的吗？",
+        "pinyin": "zhuo shang zhe xie shu shi ni de ma?"
+      }
+    ],
+    "Mission 3": [
+      {
+        "hanzi": "这是我的杯子。",
+        "pinyin": "zhe shi wo de bei zi."
+      },
+      {
+        "hanzi": "桌上有一个杯子。",
+        "pinyin": "zhuo shang you yi ge bei zi."
+      },
+      {
+        "hanzi": "不客气，欢迎下次再来。",
+        "pinyin": "bu ke qi, huan ying xia ci zai lai."
+      },
+      {
+        "hanzi": "不客气，这是我应该做的。",
+        "pinyin": "bu ke qi, zhe shi wo ying gai zuo de."
+      },
+      {
+        "hanzi": "对不起，你别生气了。",
+        "pinyin": "dui bu qi, ni bie sheng qi le."
+      },
+      {
+        "hanzi": "对不起，我错了。",
+        "pinyin": "dui bu qi, wo cuo le."
+      },
+      {
+        "hanzi": "我要一杯冷水。",
+        "pinyin": "wo yao yi bei leng shui."
+      },
+      {
+        "hanzi": "上海的冬天冷吗？",
+        "pinyin": "shang hai de dong tian leng ma?"
+      },
+      {
+        "hanzi": "没关系，我来帮你。",
+        "pinyin": "mei guan xi, wo lai bang ni."
+      },
+      {
+        "hanzi": "没关系，下次再努力。",
+        "pinyin": "mei guan xi, xia ci zai nu li."
+      },
+      {
+        "hanzi": "请坐。",
+        "pinyin": "qing zuo."
+      },
+      {
+        "hanzi": "请回答咯的问题。",
+        "pinyin": "qing hui da ge de wen ti."
+      },
+      {
+        "hanzi": "我喜欢喝热水。",
+        "pinyin": "wo xi huan he re shui."
+      },
+      {
+        "hanzi": "天太热了，我不想出门。",
+        "pinyin": "tian tai re le, wo bu xiang chu men."
+      },
+      {
+        "hanzi": "明天天气怎么样？",
+        "pinyin": "ming tian tian qi zen me yang?"
+      },
+      {
+        "hanzi": "天气不是很好，可能下午有雨。",
+        "pinyin": "tian qi bu shi hen hao, ke neng xia wu you yu."
+      },
+      {
+        "hanzi": "今天下雨了。",
+        "pinyin": "jin tian xia yu le."
+      },
+      {
+        "hanzi": "弟弟喜欢在下雨的时候出去玩水。",
+        "pinyin": "didi xi huan zai xia yu de shi hou chu qu wan shui."
+      },
+      {
+        "hanzi": "谢谢你来看我！",
+        "pinyin": "xie xei ni lai kan wo!"
+      },
+      {
+        "hanzi": "小王，谢谢你的照顾。",
+        "pinyin": "xiao wang, xie xie ni de zhao gu."
+      },
+      {
+        "hanzi": "王老师再见！",
+        "pinyin": "wang lao shi zai jian!"
+      },
+      {
+        "hanzi": "我先走了，再见！",
+        "pinyin": "wo xian zou le, zai jian!"
+      }
+    ],
+    "Mission 4": [
+      {
+        "hanzi": "今天你上课吗",
+        "pinyin": "jin tian ni shang ke ma?"
+      },
+      {
+        "hanzi": "今天是李老师的生日。",
+        "pinyin": "jin tian shi li lao shi de sheng ri."
+      },
+      {
+        "hanzi": "明天你去工作吗？",
+        "pinyin": "ming tian ni qu gong zuo ma?"
+      },
+      {
+        "hanzi": "明天是星期六，我们出去玩吧。",
+        "pinyin": "ming tian shi xing qi liu, wo men chu qu wan ba."
+      },
+      {
+        "hanzi": "你是哪年出生的？",
+        "pinyin": "ni shi na nian chu sheng de?"
+      },
+      {
+        "hanzi": "今年是2025年。",
+        "pinyin": "jin nian shi 2025 nian."
+      },
+      {
+        "hanzi": "我上午要开会。",
+        "pinyin": "wo shang wu yao kai hui."
+      },
+      {
+        "hanzi": "小李，今天上午你有空吗？",
+        "pinyin": "xiao li, jin tian shang wu ni you kong ma?"
+      },
+      {
+        "hanzi": "开车的时候不要打电话。",
+        "pinyin": "kai che de shi hou bu yao da dian hua."
+      },
+      {
+        "hanzi": "你什么时候回北京呢？",
+        "pinyin": "ni shen me shi hou hui bei jing ne?"
+      },
+      {
+        "hanzi": "你下午有时间吗？",
+        "pinyin": "ni xia wu you shi jian ma?"
+      },
+      {
+        "hanzi": "别担心，下午我就去医院看病。",
+        "pinyin": "bie dan xin, xia wu wo jiu qu yi yuan kan bing."
+      },
+      {
+        "hanzi": "现在你忙吗？",
+        "pinyin": "xian zai ni mang ma?"
+      },
+      {
+        "hanzi": "医生，他现在怎么样了？",
+        "pinyin": "yi sheng, ta xian zai zen me yang le?"
+      },
+      {
+        "hanzi": "你的生日是几号？",
+        "pinyin": "ni de sheng ri shi ji hao?"
+      },
+      {
+        "hanzi": "26号是我的生日。",
+        "pinyin": "26 hao shi wo de sheng ri."
+      }
+    ],
+    "Mission 5": [
+      {
+        "pinyin": "wo zuo fei ji qu mei guo.",
+        "hanzi": "我坐飞机去美国。"
+      },
+      {
+        "pinyin": "ni zuo fei ji qu bei jing?",
+        "hanzi": "你坐飞机去北京？"
+      },
+      {
+        "pinyin": "yin hang hou mian shi yi yuan.",
+        "hanzi": "银行后面是医院"
+      },
+      {
+        "pinyin": "wo men jia hou mian you yi ge hua yuan.",
+        "hanzi": "我们家后面有一个花园。"
+      },
+      {
+        "pinyin": "wo qu huo che zhan mai huo che piao.",
+        "hanzi": "我去火车站买火车票。"
+      },
+      {
+        "pinyin": "ni dao huo che zhan le ma?",
+        "hanzi": "你到火车站了吗？"
+      },
+      {
+        "pinyin": "ni zai jia li ma?",
+        "hanzi": "你在家里吗？"
+      },
+      {
+        "pinyin": "shang dian li you hen duo ren.",
+        "hanzi": "商店里有很多人。"
+      },
+      {
+        "pinyin": "ni jia qian mian you chao shi ma?",
+        "hanzi": "你家前面有超市吗？"
+      },
+      {
+        "pinyin": "yin hang zai chao shi de qian mian.",
+        "hanzi": "银行在超市的前面。"
+      },
+      {
+        "pinyin": "zhuo zi shang you shen me?",
+        "hanzi": "桌子上有什么？"
+      },
+      {
+        "pinyin": "xiao mao zai yi zi shang ne.",
+        "hanzi": "小猫在椅子上呢。"
+      },
+      {
+        "pinyin": "chuang xia you yi ge xiang zi.",
+        "hanzi": "床下有一个箱子。"
+      },
+      {
+        "pinyin": "kan, lou xia zhan zhe yi ge nv har.",
+        "hanzi": "看，楼下站着一个女孩儿。"
+      },
+      {
+        "pinyin": "xia ge xing qi yi jian.",
+        "hanzi": "下个星期一见。"
+      },
+      {
+        "pinyin": "xing qi yi wo yao qu shang hai.",
+        "hanzi": "星期一我要去上海。"
+      },
+      {
+        "pinyin": "shang ge yue wo qu le bei jing.",
+        "hanzi": "上个月我去了北京。"
+      },
+      {
+        "pinyin": "ni de sheng ri shi ji yue ji hao?",
+        "hanzi": "你的生日是几月几号？"
+      },
+      {
+        "pinyin": "zhong wu wo qu fan dian chi fan.",
+        "hanzi": "中午我去饭店吃饭。"
+      },
+      {
+        "pinyin": "zhe jia dian zhong wu guan men, zhen qi guai.",
+        "hanzi": "这家店中午关门，真奇怪。"
+      },
+      {
+        "pinyin": "zuo tian ni shang han yu ke le ma?",
+        "hanzi": "昨天你上汉语课了吗？"
+      },
+      {
+        "pinyin": "zuo tian bu shang ban, wo zai jia da sao fang jian le.",
+        "hanzi": "昨天不上班，我在家打扫房间了。"
+      }
+    ],
+    "Mission 6": [],
+    "Mission 7": [],
+    "Mission 8": [],
+    "Mission 9": [],
+    "Mission 10": [],
+    "Mission 11": [],
+    "Mission 12": [],
+    "Mission 13": [],
+    "Mission 14": []
+  },
+  "HSK2": {
+    "Mission 1": [],
+    "Mission 2": [],
+    "Mission 3": [],
+    "Mission 4": [],
+    "Mission 5": [],
+    "Mission 6": [],
+    "Mission 7": [],
+    "Mission 8": [],
+    "Mission 9": [],
+    "Mission 10": [],
+    "Mission 11": [],
+    "Mission 12": [],
+    "Mission 13": [],
+    "Mission 14": []
+  },
+  "HSK3": {
+    "Mission 1": [],
+    "Mission 2": [],
+    "Mission 3": [],
+    "Mission 4": [],
+    "Mission 5": [],
+    "Mission 6": [],
+    "Mission 7": [],
+    "Mission 8": [],
+    "Mission 9": [],
+    "Mission 10": [],
+    "Mission 11": [],
+    "Mission 12": [],
+    "Mission 13": [],
+    "Mission 14": [],
+    "Mission 15": [],
+    "Mission 16": [],
+    "Mission 17": [],
+    "Mission 18": [],
+    "Mission 19": [],
+    "Mission 20": [],
+    "Mission 21": [],
+    "Mission 22": [],
+    "Mission 23": [],
+    "Mission 24": [],
+    "Mission 25": [],
+    "Mission 26": []
+  },
+  "HSK4": {
+    "Mission 1": [],
+    "Mission 2": [],
+    "Mission 3": [],
+    "Mission 4": [],
+    "Mission 5": [],
+    "Mission 6": [],
+    "Mission 7": [],
+    "Mission 8": [],
+    "Mission 9": [],
+    "Mission 10": [],
+    "Mission 11": [],
+    "Mission 12": [],
+    "Mission 13": [],
+    "Mission 14": [],
+    "Mission 15": [],
+    "Mission 16": [],
+    "Mission 17": [],
+    "Mission 18": [],
+    "Mission 19": [],
+    "Mission 20": [],
+    "Mission 21": [],
+    "Mission 22": [],
+    "Mission 23": [],
+    "Mission 24": [],
+    "Mission 25": [],
+    "Mission 26": [],
+    "Mission 27": [],
+    "Mission 28": [],
+    "Mission 29": [],
+    "Mission 30": [],
+    "Mission 31": [],
+    "Mission 32": [],
+    "Mission 33": [],
+    "Mission 34": [],
+    "Mission 35": [],
+    "Mission 36": [],
+    "Mission 37": [],
+    "Mission 38": [],
+    "Mission 39": [],
+    "Mission 40": [],
+    "Mission 41": [],
+    "Mission 42": [],
+    "Mission 43": [],
+    "Mission 44": [],
+    "Mission 45": [],
+    "Mission 46": [],
+    "Mission 47": [],
+    "Mission 48": [],
+    "Mission 49": [],
+    "Mission 50": [],
+    "Mission 51": [],
+    "Mission 52": [],
+    "Mission 53": [],
+    "Mission 54": [],
+    "Mission 55": [],
+    "Mission 56": []
+  }
+}
