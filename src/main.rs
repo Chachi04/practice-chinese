@@ -72,11 +72,11 @@ impl Display for MenuOption {
 
 fn main() {
     let mut history: Vec<MenuState> = vec![MenuState::HskLevel];
+    let file: String = fs::read_to_string("practice_sheet.json").expect("Unable to read file");
+    let v: Value = serde_json::from_str(&file).expect("JSON was not  well-formatted");
+    let v = v.as_object().unwrap();
+    let levels = v.keys().collect::<Vec<&String>>();
     loop {
-        let file: String = fs::read_to_string("practice_sheet.json").expect("Unable to read file");
-        let v: Value = serde_json::from_str(&file).expect("JSON was not  well-formatted");
-        let v = v.as_object().unwrap();
-        let levels = v.keys().collect::<Vec<&String>>();
         let current_state = history.last().unwrap().clone();
         let mut items = match &current_state {
             MenuState::HskLevel => levels
@@ -121,107 +121,94 @@ fn main() {
                 }
                 start_practice(&mut terms).unwrap();
                 break;
-            } // choice => match current_state {
-              //     MenuState::HskLevel => history.push(MenuState::Mission(choice.to_string())),
-              //     MenuState::Mission(hsk_level) => {
-              //         let mut terms = v[&hsk_level][choice].as_array().unwrap().to_vec();
-              //         if terms.is_empty() {
-              //             println!("No terms found for this mission");
-              //             break;
-              //         }
-              //         start_practice(&mut terms).unwrap();
-              //         break;
-              //     }
-              // },
-        }
-
-        println!("END LOOP");
-    }
-
-    fn start_practice(terms: &mut Vec<serde_json::Value>) -> Result<()> {
-        let mut mode = PracticeMode::Pinyin;
-        let mut rng = rand::rng();
-        terms.shuffle(&mut rng);
-
-        let mut current_term_index = 0;
-        enable_raw_mode().unwrap();
-        let mut stdout = stdout();
-        stdout.execute(Hide).unwrap();
-        loop {
-            let current_term = match mode {
-                PracticeMode::Pinyin => terms[current_term_index]["pinyin"].as_str().unwrap(),
-                PracticeMode::Hanzi => terms[current_term_index]["hanzi"].as_str().unwrap(),
-            };
-            stdout.execute(Clear(ClearType::All)).unwrap();
-            stdout.execute(MoveTo(0, 0)).unwrap();
-            print_centered(
-                format!(
-                    "Term ({}/{}) {}",
-                    current_term_index + 1,
-                    terms.len(),
-                    current_term
-                )
-                .as_str(),
-            )
-            .unwrap();
-            if let Event::Key(key_event) = event::read().unwrap() {
-                match key_event.code {
-                    KeyCode::Right | KeyCode::Char('j') => {
-                        current_term_index = (current_term_index + 1) % terms.len()
-                    }
-                    KeyCode::Left | KeyCode::Char('k') => {
-                        current_term_index = (current_term_index + terms.len() - 1) % terms.len()
-                    }
-                    KeyCode::Char('q') => break,
-                    KeyCode::Char('h') => mode = PracticeMode::Hanzi,
-                    KeyCode::Char('p') => mode = PracticeMode::Pinyin,
-                    KeyCode::Char('!') => {
-                        let search_term = terms[current_term_index]["hanzi"].as_str().unwrap();
-                        disable_raw_mode().unwrap();
-                        stdout.execute(Show).unwrap();
-
-                        let output = Command::new("hskindex")
-                            .arg(search_term)
-                            .output()
-                            .expect("Failed to execute hskindex");
-                        stdout.execute(MoveTo(0, 1)).unwrap();
-                        print_centered(
-                            format!(
-                                "{}\nPress enter to continue...",
-                                String::from_utf8_lossy(&output.stdout)
-                            )
-                            .as_str(),
-                        )
-                        .unwrap();
-                        stdout.flush().unwrap();
-                        event::read().unwrap();
-
-                        enable_raw_mode().unwrap();
-                        stdout.execute(Hide).unwrap();
-                    }
-                    _ => {}
-                }
             }
         }
-        stdout.execute(Show).unwrap();
-        disable_raw_mode().unwrap();
-        Ok(())
     }
+}
 
-    fn print_centered(text: &str) -> Result<()> {
-        let (width, height) = terminal::size().unwrap();
-        let lines: Vec<&str> = text.split('\n').collect();
-        let line_count = lines.len() as u16;
-        let start_y = (height - line_count) / 2;
+fn start_practice(terms: &mut Vec<serde_json::Value>) -> Result<()> {
+    let mut mode = PracticeMode::Pinyin;
+    let mut rng = rand::rng();
+    terms.shuffle(&mut rng);
 
-        execute!(stdout(), Clear(ClearType::All)).unwrap();
+    let mut current_term_index = 0;
+    enable_raw_mode().unwrap();
+    let mut stdout = stdout();
+    stdout.execute(Hide).unwrap();
+    loop {
+        let current_term = match mode {
+            PracticeMode::Pinyin => terms[current_term_index]["pinyin"].as_str().unwrap(),
+            PracticeMode::Hanzi => terms[current_term_index]["hanzi"].as_str().unwrap(),
+        };
+        stdout.execute(Clear(ClearType::All)).unwrap();
+        stdout.execute(MoveTo(0, 0)).unwrap();
+        print_centered(
+            format!(
+                "Term ({}/{}) {}",
+                current_term_index + 1,
+                terms.len(),
+                current_term
+            )
+            .as_str(),
+        )
+        .unwrap();
+        if let Event::Key(key_event) = event::read().unwrap() {
+            match key_event.code {
+                KeyCode::Right | KeyCode::Char('j') => {
+                    current_term_index = (current_term_index + 1) % terms.len()
+                }
+                KeyCode::Left | KeyCode::Char('k') => {
+                    current_term_index = (current_term_index + terms.len() - 1) % terms.len()
+                }
+                KeyCode::Char('q') => break,
+                KeyCode::Char('h') => mode = PracticeMode::Hanzi,
+                KeyCode::Char('p') => mode = PracticeMode::Pinyin,
+                KeyCode::Char('!') => {
+                    let search_term = terms[current_term_index]["hanzi"].as_str().unwrap();
+                    disable_raw_mode().unwrap();
+                    stdout.execute(Show).unwrap();
 
-        for (i, line) in lines.iter().enumerate() {
-            let x = (width - line.len() as u16) / 2;
-            let y = start_y + i as u16;
+                    let output = Command::new("hskindex")
+                        .arg(search_term)
+                        .output()
+                        .expect("Failed to execute hskindex");
+                    stdout.execute(MoveTo(0, 1)).unwrap();
+                    print_centered(
+                        format!(
+                            "{}\nPress enter to continue...",
+                            String::from_utf8_lossy(&output.stdout)
+                        )
+                        .as_str(),
+                    )
+                    .unwrap();
+                    stdout.flush().unwrap();
+                    event::read().unwrap();
 
-            execute!(stdout(), MoveTo(x, y), crossterm::style::Print(line)).unwrap();
+                    enable_raw_mode().unwrap();
+                    stdout.execute(Hide).unwrap();
+                }
+                _ => {}
+            }
         }
-        Ok(())
     }
+    stdout.execute(Show).unwrap();
+    disable_raw_mode().unwrap();
+    Ok(())
+}
+
+fn print_centered(text: &str) -> Result<()> {
+    let (width, height) = terminal::size().unwrap();
+    let lines: Vec<&str> = text.split('\n').collect();
+    let line_count = lines.len() as u16;
+    let start_y = (height - line_count) / 2;
+
+    execute!(stdout(), Clear(ClearType::All)).unwrap();
+
+    for (i, line) in lines.iter().enumerate() {
+        let x = (width - line.len() as u16) / 2;
+        let y = start_y + i as u16;
+
+        execute!(stdout(), MoveTo(x, y), crossterm::style::Print(line)).unwrap();
+    }
+    Ok(())
 }
