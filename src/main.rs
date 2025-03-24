@@ -22,6 +22,14 @@ enum MenuState {
 }
 
 #[derive(Debug, Clone)]
+enum MenuOption {
+    Back,
+    Exit,
+    Level(String),
+    Mission(String, String),
+}
+
+#[derive(Debug, Clone)]
 enum PracticeMode {
     Pinyin,
     Hanzi,
@@ -36,6 +44,32 @@ impl Display for MenuState {
     }
 }
 
+impl Display for MenuOption {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        match self {
+            MenuOption::Back => write!(f, "<< Back"),
+            MenuOption::Exit => write!(f, "Exit"),
+            MenuOption::Level(level) => write!(f, "{}", level),
+            MenuOption::Mission(mission, _) => write!(f, "{}", mission),
+        }
+    }
+}
+
+// impl MenuOption {
+//     fn is_navigation(&self) -> bool {
+//         matches!(self, MenuOption::Back | MenuOption::Exit)
+//     }
+// }
+
+// fn validate_transition(current: &MenuState, next: &MenuOption) -> Result<()> {
+//     match (current, next) {
+//         (MenuState::Mission(_), MenuOption::Level(_)) => {
+//             Err("Invalid transition from mission to level").into()
+//         }
+//         _ => Ok(()),
+//     }
+// }
+
 fn main() {
     let mut history: Vec<MenuState> = vec![MenuState::HskLevel];
     loop {
@@ -43,24 +77,25 @@ fn main() {
         let v: Value = serde_json::from_str(&file).expect("JSON was not  well-formatted");
         let v = v.as_object().unwrap();
         let levels = v.keys().collect::<Vec<&String>>();
-        let mut missions;
-        let back = &String::from("<< Back");
-        let exit = &String::from("Exit");
         let current_state = history.last().unwrap().clone();
         let mut items = match &current_state {
-            MenuState::HskLevel => levels, //&levels.to_vec(),
+            MenuState::HskLevel => levels
+                .iter()
+                .map(|l| MenuOption::Level(l.to_string()))
+                .collect(), //&levels.to_vec(),
             MenuState::Mission(hsk_level) => {
-                missions = v[hsk_level]
+                let mut missions = v[hsk_level]
                     .as_object()
                     .unwrap()
                     .keys()
-                    .collect::<Vec<&String>>();
-                missions.push(back);
+                    .map(|m| MenuOption::Mission(m.to_string(), hsk_level.clone()))
+                    .collect::<Vec<MenuOption>>();
+                missions.push(MenuOption::Back);
                 missions
             }
         };
 
-        items.push(exit);
+        items.push(MenuOption::Exit);
 
         let selection = FuzzySelect::with_theme(&ColorfulTheme::default())
             .with_prompt(format!("{}", current_state))
@@ -69,24 +104,35 @@ fn main() {
             .interact()
             .unwrap();
 
-        match items[selection].as_str() {
-            "<< Back" => {
+        match items[selection] {
+            MenuOption::Back => {
                 history.pop();
                 continue;
             }
-            "Exit" => break,
-            choice => match current_state {
-                MenuState::HskLevel => history.push(MenuState::Mission(choice.to_string())),
-                MenuState::Mission(hsk_level) => {
-                    let mut terms = v[&hsk_level][choice].as_array().unwrap().to_vec();
-                    if terms.is_empty() {
-                        println!("No terms found for this mission");
-                        break;
-                    }
-                    start_practice(&mut terms).unwrap();
+            MenuOption::Exit => break,
+            MenuOption::Level(ref lvl) => {
+                history.push(MenuState::Mission(lvl.clone()));
+            }
+            MenuOption::Mission(ref name, ref level) => {
+                let mut terms = v[level][name].as_array().unwrap().to_vec();
+                if terms.is_empty() {
+                    println!("No terms found for this mission");
                     break;
                 }
-            },
+                start_practice(&mut terms).unwrap();
+                break;
+            } // choice => match current_state {
+              //     MenuState::HskLevel => history.push(MenuState::Mission(choice.to_string())),
+              //     MenuState::Mission(hsk_level) => {
+              //         let mut terms = v[&hsk_level][choice].as_array().unwrap().to_vec();
+              //         if terms.is_empty() {
+              //             println!("No terms found for this mission");
+              //             break;
+              //         }
+              //         start_practice(&mut terms).unwrap();
+              //         break;
+              //     }
+              // },
         }
 
         println!("END LOOP");
