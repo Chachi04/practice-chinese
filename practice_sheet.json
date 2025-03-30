@@ -1,545 +1,1169 @@
-{
-  "HSK1": {
-    "Mission 1": [
+[
+  {
+    "HSK Level": 1,
+    "Missions": [
       {
-        "hanzi": "你喜欢吃中国菜吗？",
-        "pinyin": "ni xi huan zhi zhong guo zai ma?"
+        "Mission": 1,
+        "Terms": [
+          {
+            "hanzi": "你喜欢吃中国菜吗？",
+            "pinyin": "ni xi huan zhi zhong guo zai ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "今晚我做菜。",
+            "pinyin": "jin wan wo zuo cai.",
+            "saved": false
+          },
+          {
+            "hanzi": "你喝咖啡还是茶。",
+            "pinyin": "ni he ka fei hai shi cha.",
+            "saved": false
+          },
+          {
+            "hanzi": "你喜欢喝红茶还是绿茶。",
+            "pinyin": "ni xi huan he hong cha hai shi lu cha.",
+            "saved": false
+          },
+          {
+            "hanzi": "我想吃饺子。",
+            "pinyin": "wo xiang chi jiao zi.",
+            "saved": false
+          },
+          {
+            "hanzi": "大卫爱吃中国菜。",
+            "pinyin": "da wei ai chi zhong guo cai.",
+            "saved": false
+          },
+          {
+            "hanzi": "我要喝水。",
+            "pinyin": "wo yao he shui.",
+            "saved": false
+          },
+          {
+            "hanzi": "先生，您喝点什么？",
+            "pinyin": "xian sheng, ni he dian shen me?",
+            "saved": false
+          },
+          {
+            "hanzi": "我要一碗米饭。",
+            "pinyin": "wo yao yi wan mi fan.",
+            "saved": false
+          },
+          {
+            "hanzi": "你爱吃米饭还是面条？",
+            "pinyin": "ni ai chi mi fan hai shi mian tiao?",
+            "saved": false
+          },
+          {
+            "hanzi": "你去哪儿？",
+            "pinyin": "ni qu na er?",
+            "saved": false
+          },
+          {
+            "hanzi": "我的书在那儿？",
+            "pinyin": "wo de shu zai na er?",
+            "saved": false
+          },
+          {
+            "hanzi": "我有一个苹果。",
+            "pinyin": "wo you yi ge ping guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "小女孩儿正在喝果汁。",
+            "pinyin": "xiao nv hai er zheng zai he guo zhi.",
+            "saved": false
+          },
+          {
+            "hanzi": "他是王先生。",
+            "pinyin": "ta shi wang xian sheng.",
+            "saved": false
+          },
+          {
+            "hanzi": "这些衣服都是章小姐的。",
+            "pinyin": "zhe xie yi fu dou shi zhang xiao jie de.",
+            "saved": false
+          },
+          {
+            "hanzi": "请给我一杯水, 谢谢。",
+            "pinyin": "qing gei wo yi bei shui, xie xie.",
+            "saved": false
+          },
+          {
+            "hanzi": "这是我的朋友。",
+            "pinyin": "zhe shi wo de peng you.",
+            "saved": false
+          },
+          {
+            "hanzi": "这快手表是我爸爸的",
+            "pinyin": "zhe kuai shou biao shi wo ba ba de.",
+            "saved": false
+          },
+          {
+            "hanzi": "你是哪个国家的人？",
+            "pinyin": "ni shi na ge guo jia de ren?",
+            "saved": false
+          },
+          {
+            "hanzi": "你认识那个老师？",
+            "pinyin": "ni ren shi na ge lao shi?",
+            "saved": false
+          },
+          {
+            "hanzi": "我不认识那个人。",
+            "pinyin": "wo bu ren shi na ge ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "我去过那个地方。",
+            "pinyin": "wo qu guo na ge di fang.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "今晚我做菜。",
-        "pinyin": "jin wan wo zuo cai."
+        "Mission": 2,
+        "Terms": [
+          {
+            "hanzi": "你要买什么东西？",
+            "pinyin": "ni yao mai shen me dong xi",
+            "saved": false
+          },
+          {
+            "hanzi": "妈妈去超市买东西了。",
+            "pinyin": "mama qu chao shi mai dong xi le.",
+            "saved": false
+          },
+          {
+            "hanzi": "这个东西多少钱？",
+            "pinyin": "zhe ge dong xi duo shao qian?",
+            "saved": false
+          },
+          {
+            "hanzi": "一斤苹果多少钱？",
+            "pinyin": "yi jin ping guo duo shao qian?",
+            "saved": false
+          },
+          {
+            "hanzi": "我有两个女儿。",
+            "pinyin": "wo you liang ge nv er.",
+            "saved": false
+          },
+          {
+            "hanzi": "我要告诉你一个好消息。",
+            "pinyin": "wo yao gao su ni yi ge hao xiao xi.",
+            "saved": false
+          },
+          {
+            "hanzi": "我喜欢红色和蓝色。",
+            "pinyin": "wo xi huan hong se he lan se.",
+            "saved": false
+          },
+          {
+            "hanzi": "你和谁一起去？",
+            "pinyin": "ni he shui yi qi qu?",
+            "saved": false
+          },
+          {
+            "hanzi": "给你一块蛋糕。",
+            "pinyin": "gei ni yi kuai dan gao.",
+            "saved": false
+          },
+          {
+            "hanzi": "一共五十块。",
+            "pinyin": "yi gong wu shi kuai.",
+            "saved": false
+          },
+          {
+            "hanzi": "我去买东西。",
+            "pinyin": "wo qu mai dong xi.",
+            "saved": false
+          },
+          {
+            "hanzi": "妈妈去超市买了点牛奶。",
+            "pinyin": "mama qu chao shi mai le dian niu nai.",
+            "saved": false
+          },
+          {
+            "hanzi": "一共多少钱？",
+            "pinyin": "yi gong duo shao qian?",
+            "saved": false
+          },
+          {
+            "hanzi": "这件衣服多少钱？",
+            "pinyin": "zhe jian yi fu duo shao qian?",
+            "saved": false
+          },
+          {
+            "hanzi": "商店在哪里？",
+            "pinyin": "shang dian zai na li?",
+            "saved": false
+          },
+          {
+            "hanzi": "现在商店已经关门了。",
+            "pinyin": "xian zai shang dian yi jing guan men le.",
+            "saved": false
+          },
+          {
+            "hanzi": "我爱吃水果。",
+            "pinyin": "wo ai chi shui guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "这家水果店的水果很贵。",
+            "pinyin": "zhe jia shui guo dian de shui guo hen gui.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的儿子几岁了？",
+            "pinyin": "ni de er zi ji sui le?",
+            "saved": false
+          },
+          {
+            "hanzi": "今年弟弟七岁了，可以上学了。",
+            "pinyin": "jin nian di di qi sui le, ke yi shang xue le.",
+            "saved": false
+          },
+          {
+            "hanzi": "我要买一些水果。",
+            "pinyin": "wo yao mai yi xie shui guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "桌上这些书是你的吗？",
+            "pinyin": "zhuo shang zhe xie shu shi ni de ma?",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "你喝咖啡还是茶。",
-        "pinyin": "ni he ka fei hai shi cha."
+        "Mission": 3,
+        "Terms": [
+          {
+            "hanzi": "这是我的杯子。",
+            "pinyin": "zhe shi wo de bei zi.",
+            "saved": false
+          },
+          {
+            "hanzi": "桌上有一个杯子。",
+            "pinyin": "zhuo shang you yi ge bei zi.",
+            "saved": false
+          },
+          {
+            "hanzi": "不客气，欢迎下次再来。",
+            "pinyin": "bu ke qi, huan ying xia ci zai lai.",
+            "saved": false
+          },
+          {
+            "hanzi": "不客气，这是我应该做的。",
+            "pinyin": "bu ke qi, zhe shi wo ying gai zuo de.",
+            "saved": false
+          },
+          {
+            "hanzi": "对不起，你别生气了。",
+            "pinyin": "dui bu qi, ni bie sheng qi le.",
+            "saved": false
+          },
+          {
+            "hanzi": "对不起，我错了。",
+            "pinyin": "dui bu qi, wo cuo le.",
+            "saved": false
+          },
+          {
+            "hanzi": "我要一杯冷水。",
+            "pinyin": "wo yao yi bei leng shui.",
+            "saved": false
+          },
+          {
+            "hanzi": "上海的冬天冷吗？",
+            "pinyin": "shang hai de dong tian leng ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "没关系，我来帮你。",
+            "pinyin": "mei guan xi, wo lai bang ni.",
+            "saved": false
+          },
+          {
+            "hanzi": "没关系，下次再努力。",
+            "pinyin": "mei guan xi, xia ci zai nu li.",
+            "saved": false
+          },
+          {
+            "hanzi": "请坐。",
+            "pinyin": "qing zuo.",
+            "saved": false
+          },
+          {
+            "hanzi": "请回答我的问题。",
+            "pinyin": "qing hui da wo de wen ti.",
+            "saved": false
+          },
+          {
+            "hanzi": "我喜欢喝热水。",
+            "pinyin": "wo xi huan he re shui.",
+            "saved": false
+          },
+          {
+            "hanzi": "天太热了，我不想出门。",
+            "pinyin": "tian tai re le, wo bu xiang chu men.",
+            "saved": false
+          },
+          {
+            "hanzi": "明天天气怎么样？",
+            "pinyin": "ming tian tian qi zen me yang?",
+            "saved": false
+          },
+          {
+            "hanzi": "天气不是很好，可能下午有雨。",
+            "pinyin": "tian qi bu shi hen hao, ke neng xia wu you yu.",
+            "saved": false
+          },
+          {
+            "hanzi": "今天下雨了。",
+            "pinyin": "jin tian xia yu le.",
+            "saved": false
+          },
+          {
+            "hanzi": "弟弟喜欢在下雨的时候出去玩水。",
+            "pinyin": "didi xi huan zai xia yu de shi hou chu qu wan shui.",
+            "saved": false
+          },
+          {
+            "hanzi": "谢谢你来看我！",
+            "pinyin": "xie xie ni lai kan wo!",
+            "saved": false
+          },
+          {
+            "hanzi": "小王，谢谢你的照顾。",
+            "pinyin": "xiao wang, xie xie ni de zhao gu.",
+            "saved": true
+          },
+          {
+            "hanzi": "王老师再见！",
+            "pinyin": "wang lao shi zai jian!",
+            "saved": false
+          },
+          {
+            "hanzi": "我先走了，再见！",
+            "pinyin": "wo xian zou le, zai jian!",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "你喜欢喝红茶还是绿茶。",
-        "pinyin": "ni xi huan he hong cha hai shi lu cha."
+        "Mission": 4,
+        "Terms": [
+          {
+            "hanzi": "今天你上课吗",
+            "pinyin": "jin tian ni shang ke ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "今天是李老师的生日。",
+            "pinyin": "jin tian shi li lao shi de sheng ri.",
+            "saved": false
+          },
+          {
+            "hanzi": "明天你去工作吗？",
+            "pinyin": "ming tian ni qu gong zuo ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "明天是星期六，我们出去玩吧。",
+            "pinyin": "ming tian shi xing qi liu, wo men chu qu wan ba.",
+            "saved": false
+          },
+          {
+            "hanzi": "你是哪年出生的？",
+            "pinyin": "ni shi na nian chu sheng de?",
+            "saved": false
+          },
+          {
+            "hanzi": "今年是2025年。",
+            "pinyin": "jin nian shi 2025 nian.",
+            "saved": false
+          },
+          {
+            "hanzi": "我上午要开会。",
+            "pinyin": "wo shang wu yao kai hui.",
+            "saved": false
+          },
+          {
+            "hanzi": "小李，今天上午你有空吗？",
+            "pinyin": "xiao li, jin tian shang wu ni you kong ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "开车的时候不要打电话。",
+            "pinyin": "kai che de shi hou bu yao da dian hua.",
+            "saved": false
+          },
+          {
+            "hanzi": "你什么时候回北京呢？",
+            "pinyin": "ni shen me shi hou hui bei jing ne?",
+            "saved": false
+          },
+          {
+            "hanzi": "你下午有时间吗？",
+            "pinyin": "ni xia wu you shi jian ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "别担心，下午我就去医院看病。",
+            "pinyin": "bie dan xin, xia wu wo jiu qu yi yuan kan bing.",
+            "saved": false
+          },
+          {
+            "hanzi": "现在你忙吗？",
+            "pinyin": "xian zai ni mang ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "医生，他现在怎么样了？",
+            "pinyin": "yi sheng, ta xian zai zen me yang le?",
+            "saved": false
+          },
+          {
+            "hanzi": "你的生日是几号？",
+            "pinyin": "ni de sheng ri shi ji hao?",
+            "saved": false
+          },
+          {
+            "hanzi": "26号是我的生日。",
+            "pinyin": "26 hao shi wo de sheng ri.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "我想吃饺子。",
-        "pinyin": "wo xiang chi jiao zi."
+        "Mission": 5,
+        "Terms": [
+          {
+            "hanzi": "我坐飞机去美国。",
+            "pinyin": "wo zuo fei ji qu mei guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "你坐飞机去北京？",
+            "pinyin": "ni zuo fei ji qu bei jing?",
+            "saved": false
+          },
+          {
+            "hanzi": "银行后面是医院",
+            "pinyin": "yin hang hou mian shi yi yuan.",
+            "saved": false
+          },
+          {
+            "hanzi": "我们家后面有一个花园。",
+            "pinyin": "wo men jia hou mian you yi ge hua yuan.",
+            "saved": false
+          },
+          {
+            "hanzi": "我去火车站买火车票。",
+            "pinyin": "wo qu huo che zhan mai huo che piao.",
+            "saved": false
+          },
+          {
+            "hanzi": "你到火车站了吗？",
+            "pinyin": "ni dao huo che zhan le ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "你在家里吗？",
+            "pinyin": "ni zai jia li ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "商店里有很多人。",
+            "pinyin": "shang dian li you hen duo ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "你家前面有超市吗？",
+            "pinyin": "ni jia qian mian you chao shi ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "银行在超市的前面。",
+            "pinyin": "yin hang zai chao shi de qian mian.",
+            "saved": false
+          },
+          {
+            "hanzi": "桌子上有什么？",
+            "pinyin": "zhuo zi shang you shen me?",
+            "saved": false
+          },
+          {
+            "hanzi": "小猫在椅子上呢。",
+            "pinyin": "xiao mao zai yi zi shang ne.",
+            "saved": false
+          },
+          {
+            "hanzi": "床下有一个箱子。",
+            "pinyin": "chuang xia you yi ge xiang zi.",
+            "saved": false
+          },
+          {
+            "hanzi": "看，楼下站着一个女孩儿。",
+            "pinyin": "kan, lou xia zhan zhe yi ge nv har.",
+            "saved": false
+          },
+          {
+            "hanzi": "下个星期一见。",
+            "pinyin": "xia ge xing qi yi jian.",
+            "saved": false
+          },
+          {
+            "hanzi": "星期一我要去上海。",
+            "pinyin": "xing qi yi wo yao qu shang hai.",
+            "saved": false
+          },
+          {
+            "hanzi": "上个月我去了北京。",
+            "pinyin": "shang ge yue wo qu le bei jing.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的生日是几月几号？",
+            "pinyin": "ni de sheng ri shi ji yue ji hao?",
+            "saved": false
+          },
+          {
+            "hanzi": "中午我去饭店吃饭。",
+            "pinyin": "zhong wu wo qu fan dian chi fan.",
+            "saved": false
+          },
+          {
+            "hanzi": "这家店中午关门，真奇怪。",
+            "pinyin": "zhe jia dian zhong wu guan men, zhen qi guai.",
+            "saved": false
+          },
+          {
+            "hanzi": "昨天你上汉语课了吗？",
+            "pinyin": "zuo tian ni shang han yu ke le ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "昨天不上班，我在家打扫房间了。",
+            "pinyin": "zuo tian bu shang ban, wo zai jia da sao fang jian le.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "大卫爱吃中国菜。",
-        "pinyin": "da wei ai chi zhong guo cai."
+        "Mission": 6,
+        "Terms": [
+          {
+            "hanzi": "我爱吃苹果。",
+            "pinyin": "wo ai chi ping guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "我爱我的家人。",
+            "pinyin": "wo ai wo de jia ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "我可以用你的电脑吗？",
+            "pinyin": "wo ke yi yong ni de dian nao ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "这是谁的电脑？",
+            "pinyin": "zhe shi shei de dian nao?",
+            "saved": false
+          },
+          {
+            "hanzi": "周末我喜欢看电视。",
+            "pinyin": "zhou muo wo xi huan kan dian shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "爸爸很喜欢看电视。",
+            "pinyin": "ba ba hen xi huan kan dian shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "我们晚上去看电影。",
+            "pinyin": "wo men wan shang qu kan dian ying.",
+            "saved": false
+          },
+          {
+            "hanzi": "今晚去看电影怎么样？",
+            "pinyin": "jin wan qu kan dian ying zen me yang?",
+            "saved": false
+          },
+          {
+            "hanzi": "很高兴认识你。",
+            "pinyin": "hen gao xing ren shi ni.",
+            "saved": false
+          },
+          {
+            "hanzi": "你看起来很高兴。",
+            "pinyin": "ni kan qi lai hen gao xing.",
+            "saved": false
+          },
+          {
+            "hanzi": "今天天气很好。",
+            "pinyin": "jin tian tian qi hen hao.",
+            "saved": false
+          },
+          {
+            "hanzi": "他的工作很好。",
+            "pinyin": "ta de gong zuo hen hao.",
+            "saved": false
+          },
+          {
+            "hanzi": "我不喜欢喝咖啡，给我一杯茶吧。",
+            "pinyin": "wo bu xi huan he ka fei, gei wo yi bei cha ba.",
+            "saved": false
+          },
+          {
+            "hanzi": "我买了一件衣服。",
+            "pinyin": "wo mai le yi jian yi fu.",
+            "saved": false
+          },
+          {
+            "hanzi": "这件衣服真好看。",
+            "pinyin": "zhe jian yi fu zhen hao kan.",
+            "saved": false
+          },
+          {
+            "hanzi": "这个椅子多少钱？",
+            "pinyin": "zhe ge yi zi duo shao qian?",
+            "saved": false
+          },
+          {
+            "hanzi": "公园的椅子上躺着一个人。",
+            "pinyin": "gong yuan de yi zi shang tang zhe yi ge ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "我想买一张桌子。",
+            "pinyin": "wo xiang mai yi zhang zhuo zi",
+            "saved": false
+          },
+          {
+            "hanzi": "他的房间里没有桌子。",
+            "pinyin": "ta de fang jian lii mei you zhuo zi",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "我要喝水。",
-        "pinyin": "wo yao he shui."
+        "Mission": 7,
+        "Terms": [
+          {
+            "hanzi": "他住二楼。",
+            "pinyin": "ta zhu er lou.",
+            "saved": false
+          },
+          {
+            "hanzi": "他们想一起去外国过二人世界。",
+            "pinyin": "ta men xiang yi qi qu wai guo guo er ren shi jie.",
+            "saved": false
+          },
+          {
+            "hanzi": "我每天九点上班。",
+            "pinyin": "wo mei tian jiu dian shang ban.",
+            "saved": false
+          },
+          {
+            "hanzi": "这件衣服九是九元。",
+            "pinyin": "zhe jian yi fu jiu shi jiu yuan.",
+            "saved": false
+          },
+          {
+            "hanzi": "我六点起床。",
+            "pinyin": "wo liu dian qi chuang.",
+            "saved": false
+          },
+          {
+            "hanzi": "我买了六个苹果。",
+            "pinyin": "wo mai le liu ge ping guo.",
+            "saved": false
+          },
+          {
+            "hanzi": "她每天七点吃早饭。",
+            "pinyin": "ta mei tian qi dian chi zao fan.",
+            "saved": false
+          },
+          {
+            "hanzi": "楼下有七辆车。",
+            "pinyin": "lou xia you qi liang che.",
+            "saved": false
+          },
+          {
+            "hanzi": "教室里有三个学生。",
+            "pinyin": "jiao shi li you san ge xue sheng.",
+            "saved": false
+          },
+          {
+            "hanzi": "我们家有三口人。",
+            "pinyin": "wo men jia you san kou ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "我们班有十个女学生。",
+            "pinyin": "wo men ban you shi ge nv xue sheng.",
+            "saved": false
+          },
+          {
+            "hanzi": "苹果十块一斤，太贵了！",
+            "pinyin": "ping guo shi kuai yi jin, tai gui le!",
+            "saved": false
+          },
+          {
+            "hanzi": "我们买四杯红酒。",
+            "pinyin": "wo men mai si bei hong jiu.",
+            "saved": false
+          },
+          {
+            "hanzi": "今天我吃了四个面包。",
+            "pinyin": "jin tian wo chi le si ge mian bao.",
+            "saved": false
+          },
+          {
+            "hanzi": "我要买五瓶啤酒。",
+            "pinyin": "wo yao mai wu ping pi jiu.",
+            "saved": false
+          },
+          {
+            "hanzi": "今天我家有五个客人。",
+            "pinyin": "jin tian wo jia you wu ge ke ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "只有一块蛋糕了，快吃吧。",
+            "pinyin": "zhi you yi kuai dan gao le, kuai chi ba.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "先生，您喝点什么？",
-        "pinyin": "xian sheng, ni he dian shen me?"
+        "Mission": 8,
+        "Terms": [
+          {
+            "hanzi": "爸爸喜欢喝啤酒。",
+            "pinyin": "baba xi huan he pi jiu.",
+            "saved": false
+          },
+          {
+            "hanzi": "我的爸爸是医生。",
+            "pinyin": "wo de baba shi yi sheng.",
+            "saved": false
+          },
+          {
+            "hanzi": "请给我打电话。",
+            "pinyin": "qing gei wo da dian hua.",
+            "saved": false
+          },
+          {
+            "hanzi": "别忘记给我打电话。",
+            "pinyin": "bie wang ji gei wo da dian hua.",
+            "saved": false
+          },
+          {
+            "hanzi": "我喜欢读书。",
+            "pinyin": "wo xi huan du shu.",
+            "saved": false
+          },
+          {
+            "hanzi": "你知道这个词怎么读吗？",
+            "pinyin": "ni zhi dao zhe ge ci zen me du ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "我的儿子喜欢踢足球。",
+            "pinyin": "wo de er zi xi huan ti zu jiu.",
+            "saved": false
+          },
+          {
+            "hanzi": "介绍一下，这是我的儿子。",
+            "pinyin": "jie shao yi xia, zhe shi wo de er zi.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的老师是谁？",
+            "pinyin": "ni de lao shi shi shei?",
+            "saved": false
+          },
+          {
+            "hanzi": "我的妈妈是大学老师。",
+            "pinyin": "wo de ma ma shi da xue lao shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "她和妈妈长得很像。",
+            "pinyin": "ta he ma ma zhan de hen xiang.",
+            "saved": false
+          },
+          {
+            "hanzi": "我的女儿在大学读书。",
+            "pinyin": "wo de nv er zai da xue du shu.",
+            "saved": false
+          },
+          {
+            "hanzi": "你几点睡觉？",
+            "pinyin": "ni ji dian shui jiao.",
+            "saved": false
+          },
+          {
+            "hanzi": "孩子真在睡觉。",
+            "pinyin": "hai zi zhen zai shui jiao.",
+            "saved": false
+          },
+          {
+            "hanzi": "那是我的同学。",
+            "pinyin": "na shi wo de tong xue.",
+            "saved": false
+          },
+          {
+            "hanzi": "他不是我的同学，是我的哥哥。",
+            "pinyin": "ta bu shi wo de tong xue, shi wo de ge ge.",
+            "saved": false
+          },
+          {
+            "hanzi": "你们班有多少个学生？",
+            "pinyin": "ni men ban you duo shao ge xue sheng?",
+            "saved": false
+          },
+          {
+            "hanzi": "小夏是我的学生。",
+            "pinyin": "xiao xia shi wo de xue sheng.",
+            "saved": false
+          },
+          {
+            "hanzi": "我现在不想说。",
+            "pinyin": "wo xian zai bu xiang shuo.",
+            "saved": false
+          },
+          {
+            "hanzi": "学习汉语要多听多说。",
+            "pinyin": "xue xi han yu yao duo ting duo shuo.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "我要一碗米饭。",
-        "pinyin": "wo yao yi wan mi fan."
+        "Mission": 9,
+        "Terms": [
+          {
+            "hanzi": "北京大吗？",
+            "pinyin": "bei jing da ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "北京是一个大城市。",
+            "pinyin": "bei jing shi yi ge da cheng shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "你在哪儿学汉语？",
+            "pinyin": "ni zai nar xue han yu?",
+            "saved": false
+          },
+          {
+            "hanzi": "他说他想学习汉语。",
+            "pinyin": "ta shuo ta xiang xue xi han yu.",
+            "saved": false
+          },
+          {
+            "hanzi": "我的家在上海。",
+            "pinyin": "wo de jia zai shang hai.",
+            "saved": false
+          },
+          {
+            "hanzi": "那家饭馆的菜很好吃。",
+            "pinyin": "na jia fan guan de cai hen hao chi.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的衣服很漂亮",
+            "pinyin": "ni de yi fu hen piao liang",
+            "saved": false
+          },
+          {
+            "hanzi": "她很漂亮",
+            "pinyin": "ta hen piao liang",
+            "saved": false
+          },
+          {
+            "hanzi": "这本书很有意思",
+            "pinyin": "zhe ben shu hen you yi si",
+            "saved": false
+          },
+          {
+            "hanzi": "你会写汉字吗？",
+            "pinyin": "ni hui xie han zi ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "你帮我看看，这个字我写的对吗？",
+            "pinyin": "ni bang wo kan kan, zhe ge zi wo xie de dui ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "他在教室学习。",
+            "pinyin": "ta zai jiao shi xue xi.",
+            "saved": false
+          },
+          {
+            "hanzi": "说话轻一点，孩子真在学习。",
+            "pinyin": "shuo hua qing yi dian, hai zi zhen zai xue xi.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的学校很大。",
+            "pinyin": "ni de xue xiao hen da.",
+            "saved": false
+          },
+          {
+            "hanzi": "你们看，这是我的学校。",
+            "pinyin": "ni men kan, zhe shi wo de xue xiao.",
+            "saved": false
+          },
+          {
+            "hanzi": "你是中国人吗？",
+            "pinyin": "ni shi zhong guo ren ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "李梅是中国人，她的先生是美国人。",
+            "pinyin": "li mei shi zhong guo ren, ta de xian sheng shi mei guo ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "这是什么字？",
+            "pinyin": "zhe shi shen me zi?",
+            "saved": false
+          },
+          {
+            "hanzi": "小李，你的字写的真好看！",
+            "pinyin": "xiao li, ni de zi xie de zhen hao kan!",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "你爱吃米饭还是面条？",
-        "pinyin": "ni ai chi mi fan hai shi mian tiao?"
+        "Mission": 10,
+        "Terms": [
+          {
+            "hanzi": "不好意思，我不喝冷水。",
+            "pinyin": "bu hao yi si, wo bu he leng shui.",
+            "saved": false
+          },
+          {
+            "hanzi": "红色和白色我都喜欢。",
+            "pinyin": "hong se he bai se wo dou xi huan.",
+            "saved": false
+          },
+          {
+            "hanzi": "他们都不是中国人。",
+            "pinyin": "ta men dou bu shi zhong guo ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "我喜欢小狗。",
+            "pinyin": "wo xi huan xiao gou.",
+            "saved": false
+          },
+          {
+            "hanzi": "我朋友家有两条狗。",
+            "pinyin": "wo peng you jia you liang tiao gou.",
+            "saved": false
+          },
+          {
+            "hanzi": "我很好。",
+            "pinyin": "wo hen hao.",
+            "saved": false
+          },
+          {
+            "hanzi": "这件衣服很贵。",
+            "pinyin": "zhe jian yi fu hen gui.",
+            "saved": false
+          },
+          {
+            "hanzi": "他是法国人。",
+            "pinyin": "ta shi fa guo ren",
+            "saved": false
+          },
+          {
+            "hanzi": "他是我们班的英语老师。",
+            "pinyin": "ta shi wo men ban de ying yu lao shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "那是我的小猫。",
+            "pinyin": "na shi wo de xiao mao.",
+            "saved": false
+          },
+          {
+            "hanzi": "我的猫不见了。",
+            "pinyin": "wo de mao bu jian le.",
+            "saved": false
+          },
+          {
+            "hanzi": "你要什么咖啡？",
+            "pinyin": "ni yao shen me ka fei?",
+            "saved": false
+          },
+          {
+            "hanzi": "你买什么东西了？",
+            "pinyin": "ni mai shen me dong xi le?",
+            "saved": false
+          },
+          {
+            "hanzi": "医生让我在家好好休息。",
+            "pinyin": "yi sheng rang wo zai jia hao hao xiu xi.",
+            "saved": false
+          },
+          {
+            "hanzi": "请问医院在哪里？",
+            "pinyin": "qing wen yi yuan zai na li?",
+            "saved": false
+          },
+          {
+            "hanzi": "我爸爸和妈妈都在医院工作。",
+            "pinyin": "wo baba he mama dou zai yi yuan gong zuo.",
+            "saved": false
+          },
+          {
+            "hanzi": "我没有吃完饭。",
+            "pinyin": "wo mei you chi wan fan.",
+            "saved": false
+          },
+          {
+            "hanzi": "我现在没时间。",
+            "pinyin": "wo xian zai mei shi jian.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "你去哪儿？",
-        "pinyin": "ni qu na er?"
+        "Mission": 11,
+        "Terms": [
+          {
+            "hanzi": "我坐出租车去机场。",
+            "pinyin": "wo zuo chu zhu che qu ji chang.",
+            "saved": false
+          },
+          {
+            "hanzi": "你的朋友来了吗？",
+            "pinyin": "ni de peng you lai le ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "在北京，我有很多朋友。",
+            "pinyin": "zai bei jing, wo you hen duo peng you.",
+            "saved": false
+          },
+          {
+            "hanzi": "门口有很多人。",
+            "pinyin": "men kou you hen duo ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "早上五点公园里没有多少人。",
+            "pinyin": "zao shang wu dian gong yuan li mei you duo shao ren.",
+            "saved": false
+          },
+          {
+            "hanzi": "谁是你的朋友？",
+            "pinyin": "shui shi ni de peng you?",
+            "saved": false
+          },
+          {
+            "hanzi": "请问，这是谁的书？",
+            "pinyin": "qing wen, zhe shi shui de shu?",
+            "saved": false
+          },
+          {
+            "hanzi": "他是我的同事。",
+            "pinyin": "ta shi wo de tong shi.",
+            "saved": false
+          },
+          {
+            "hanzi": "他是我们的老师，也是我们的朋友。",
+            "pinyin": "ta shi wo men de lao shi, ye shi wo men de peng you.",
+            "saved": false
+          },
+          {
+            "hanzi": "我叫王明。",
+            "pinyin": "wo jiao wang ming.",
+            "saved": false
+          },
+          {
+            "hanzi": "这是我行买的手机，好看吗？",
+            "pinyin": "zhe shi wo xing mai de shou ji, hao kan ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "我们喝杯咖啡，休息一下吧。",
+            "pinyin": "wo men he bai ka fei, xiu xi yi xia ba.",
+            "saved": false
+          },
+          {
+            "hanzi": "先生，您还有什么要求吗？",
+            "pinyin": "xian sheng, nin hai you shen me yao qiu ma?",
+            "saved": false
+          },
+          {
+            "hanzi": "小姐，你要买什么？",
+            "pinyin": "xiao jie, ni yao mai shen me?",
+            "saved": false
+          },
+          {
+            "hanzi": "小姐，这是您的面包和咖啡。",
+            "pinyin": "xiao jie, zhe shi nin de mian bao he ka fei.",
+            "saved": false
+          },
+          {
+            "hanzi": "张老师不在学校。",
+            "pinyin": "zhang lao shi bu zai xue xiao.",
+            "saved": false
+          },
+          {
+            "hanzi": "牛奶在冰箱里。",
+            "pinyin": "niu nai zai ping xiang li.",
+            "saved": false
+          }
+        ]
       },
       {
-        "hanzi": "我的书在那儿？",
-        "pinyin": "wo de shu zai na er?"
+        "Mission": 12,
+        "Terms": []
       },
       {
-        "hanzi": "我有一个苹果。",
-        "pinyin": "wo you yi ge ping guo."
+        "Mission": 13,
+        "Terms": []
       },
       {
-        "hanzi": "小女孩儿正在喝果汁。",
-        "pinyin": "xiao nv hai er zheng zai he guo zhi."
-      },
-      {
-        "hanzi": "他是王先生。",
-        "pinyin": "ta shi wang xian sheng."
-      },
-      {
-        "hanzi": "这些衣服都是章小姐的。",
-        "pinyin": "zhe xie yi fu dou shi zhang xiao jie de."
-      },
-      {
-        "hanzi": "请给我一杯水, 谢谢。",
-        "pinyin": "qing gei wo yi bei shui, xie xie."
-      },
-      {
-        "hanzi": "这是我的朋友。",
-        "pinyin": "zhe shi wo de peng you."
-      },
-      {
-        "hanzi": "这快手表是我爸爸的",
-        "pinyin": "zhe kuai shou biao shi wo ba ba de."
-      },
-      {
-        "hanzi": "你是哪个国家的人？",
-        "pinyin": "ni shi na ge guo jia de ren?"
-      },
-      {
-        "hanzi": "你认识那个老师？",
-        "pinyin": "ni ren shi na ge lao shi?"
-      },
-      {
-        "hanzi": "我不认识那个人。",
-        "pinyin": "wo bu ren shi na ge ren."
-      },
-      {
-        "hanzi": "我去过那个地方。",
-        "pinyin": "wo qu guo na ge di fang."
+        "Mission": 14,
+        "Terms": []
       }
-    ],
-    "Mission 2": [
-      {
-        "hanzi": "你要买什么东西？",
-        "pinyin": "ni yao mai shen me dong xi"
-      },
-      {
-        "hanzi": "妈妈去超市买东西了。",
-        "pinyin": "mama qu chao shi mai dong xi le."
-      },
-      {
-        "hanzi": "这个东西多少钱？",
-        "pinyin": "zhe ge dong xi duo shao qian?"
-      },
-      {
-        "hanzi": "一斤苹果多少钱？",
-        "pinyin": "yi jin ping guo duo shao qian?"
-      },
-      {
-        "hanzi": "我有两个女儿。",
-        "pinyin": "wo you liang ge nv er."
-      },
-      {
-        "hanzi": "我要告诉你一个好消息。",
-        "pinyin": "wo yao gao su ni yi ge hao xiao xi."
-      },
-      {
-        "hanzi": "我喜欢红色和蓝色。",
-        "pinyin": "wo xi huan hong se he lan se."
-      },
-      {
-        "hanzi": "你和谁一起去？",
-        "pinyin": "ni he shui yi qi qu?"
-      },
-      {
-        "hanzi": "给你一块蛋糕。",
-        "pinyin": "gei ni yi kuai dan gao."
-      },
-      {
-        "hanzi": "一共五十块。",
-        "pinyin": "yi gong wu shi kuai."
-      },
-      {
-        "hanzi": "我去买东西。",
-        "pinyin": "wo qu mai dong xi."
-      },
-      {
-        "hanzi": "妈妈去超市买了点牛奶。",
-        "pinyin": "mama qu chao shi mai le dian niu nai."
-      },
-      {
-        "hanzi": "一共多少钱？",
-        "pinyin": "yi gong duo shao qian?"
-      },
-      {
-        "hanzi": "这件衣服多少钱？",
-        "pinyin": "zhe jian yi fu duo shao qian?"
-      },
-      {
-        "hanzi": "商店在哪里？",
-        "pinyin": "shang dian zai na li?"
-      },
-      {
-        "hanzi": "现在商店已经关门了。",
-        "pinyin": "xian zai shang dian yi jing guan men le."
-      },
-      {
-        "hanzi": "我爱吃水果。",
-        "pinyin": "wo ai chi shui guo."
-      },
-      {
-        "hanzi": "这家水果店的水果很贵。",
-        "pinyin": "zhe jia shui guo dian de shui guo hen gui."
-      },
-      {
-        "hanzi": "你的儿子几岁了？",
-        "pinyin": "ni de er zi ji sui le?"
-      },
-      {
-        "hanzi": "今年弟弟七岁了，可以上学了。",
-        "pinyin": "jin nian di di qi sui le, ke yi shang xue le."
-      },
-      {
-        "hanzi": "我要买一些水果。",
-        "pinyin": "wo yao mai yi xie shui guo."
-      },
-      {
-        "hanzi": "桌上这些书是你的吗？",
-        "pinyin": "zhuo shang zhe xie shu shi ni de ma?"
-      }
-    ],
-    "Mission 3": [
-      {
-        "hanzi": "这是我的杯子。",
-        "pinyin": "zhe shi wo de bei zi."
-      },
-      {
-        "hanzi": "桌上有一个杯子。",
-        "pinyin": "zhuo shang you yi ge bei zi."
-      },
-      {
-        "hanzi": "不客气，欢迎下次再来。",
-        "pinyin": "bu ke qi, huan ying xia ci zai lai."
-      },
-      {
-        "hanzi": "不客气，这是我应该做的。",
-        "pinyin": "bu ke qi, zhe shi wo ying gai zuo de."
-      },
-      {
-        "hanzi": "对不起，你别生气了。",
-        "pinyin": "dui bu qi, ni bie sheng qi le."
-      },
-      {
-        "hanzi": "对不起，我错了。",
-        "pinyin": "dui bu qi, wo cuo le."
-      },
-      {
-        "hanzi": "我要一杯冷水。",
-        "pinyin": "wo yao yi bei leng shui."
-      },
-      {
-        "hanzi": "上海的冬天冷吗？",
-        "pinyin": "shang hai de dong tian leng ma?"
-      },
-      {
-        "hanzi": "没关系，我来帮你。",
-        "pinyin": "mei guan xi, wo lai bang ni."
-      },
-      {
-        "hanzi": "没关系，下次再努力。",
-        "pinyin": "mei guan xi, xia ci zai nu li."
-      },
-      {
-        "hanzi": "请坐。",
-        "pinyin": "qing zuo."
-      },
-      {
-        "hanzi": "请回答咯的问题。",
-        "pinyin": "qing hui da ge de wen ti."
-      },
-      {
-        "hanzi": "我喜欢喝热水。",
-        "pinyin": "wo xi huan he re shui."
-      },
-      {
-        "hanzi": "天太热了，我不想出门。",
-        "pinyin": "tian tai re le, wo bu xiang chu men."
-      },
-      {
-        "hanzi": "明天天气怎么样？",
-        "pinyin": "ming tian tian qi zen me yang?"
-      },
-      {
-        "hanzi": "天气不是很好，可能下午有雨。",
-        "pinyin": "tian qi bu shi hen hao, ke neng xia wu you yu."
-      },
-      {
-        "hanzi": "今天下雨了。",
-        "pinyin": "jin tian xia yu le."
-      },
-      {
-        "hanzi": "弟弟喜欢在下雨的时候出去玩水。",
-        "pinyin": "didi xi huan zai xia yu de shi hou chu qu wan shui."
-      },
-      {
-        "hanzi": "谢谢你来看我！",
-        "pinyin": "xie xei ni lai kan wo!"
-      },
-      {
-        "hanzi": "小王，谢谢你的照顾。",
-        "pinyin": "xiao wang, xie xie ni de zhao gu."
-      },
-      {
-        "hanzi": "王老师再见！",
-        "pinyin": "wang lao shi zai jian!"
-      },
-      {
-        "hanzi": "我先走了，再见！",
-        "pinyin": "wo xian zou le, zai jian!"
-      }
-    ],
-    "Mission 4": [
-      {
-        "hanzi": "今天你上课吗",
-        "pinyin": "jin tian ni shang ke ma?"
-      },
-      {
-        "hanzi": "今天是李老师的生日。",
-        "pinyin": "jin tian shi li lao shi de sheng ri."
-      },
-      {
-        "hanzi": "明天你去工作吗？",
-        "pinyin": "ming tian ni qu gong zuo ma?"
-      },
-      {
-        "hanzi": "明天是星期六，我们出去玩吧。",
-        "pinyin": "ming tian shi xing qi liu, wo men chu qu wan ba."
-      },
-      {
-        "hanzi": "你是哪年出生的？",
-        "pinyin": "ni shi na nian chu sheng de?"
-      },
-      {
-        "hanzi": "今年是2025年。",
-        "pinyin": "jin nian shi 2025 nian."
-      },
-      {
-        "hanzi": "我上午要开会。",
-        "pinyin": "wo shang wu yao kai hui."
-      },
-      {
-        "hanzi": "小李，今天上午你有空吗？",
-        "pinyin": "xiao li, jin tian shang wu ni you kong ma?"
-      },
-      {
-        "hanzi": "开车的时候不要打电话。",
-        "pinyin": "kai che de shi hou bu yao da dian hua."
-      },
-      {
-        "hanzi": "你什么时候回北京呢？",
-        "pinyin": "ni shen me shi hou hui bei jing ne?"
-      },
-      {
-        "hanzi": "你下午有时间吗？",
-        "pinyin": "ni xia wu you shi jian ma?"
-      },
-      {
-        "hanzi": "别担心，下午我就去医院看病。",
-        "pinyin": "bie dan xin, xia wu wo jiu qu yi yuan kan bing."
-      },
-      {
-        "hanzi": "现在你忙吗？",
-        "pinyin": "xian zai ni mang ma?"
-      },
-      {
-        "hanzi": "医生，他现在怎么样了？",
-        "pinyin": "yi sheng, ta xian zai zen me yang le?"
-      },
-      {
-        "hanzi": "你的生日是几号？",
-        "pinyin": "ni de sheng ri shi ji hao?"
-      },
-      {
-        "hanzi": "26号是我的生日。",
-        "pinyin": "26 hao shi wo de sheng ri."
-      }
-    ],
-    "Mission 5": [
-      {
-        "pinyin": "wo zuo fei ji qu mei guo.",
-        "hanzi": "我坐飞机去美国。"
-      },
-      {
-        "pinyin": "ni zuo fei ji qu bei jing?",
-        "hanzi": "你坐飞机去北京？"
-      },
-      {
-        "pinyin": "yin hang hou mian shi yi yuan.",
-        "hanzi": "银行后面是医院"
-      },
-      {
-        "pinyin": "wo men jia hou mian you yi ge hua yuan.",
-        "hanzi": "我们家后面有一个花园。"
-      },
-      {
-        "pinyin": "wo qu huo che zhan mai huo che piao.",
-        "hanzi": "我去火车站买火车票。"
-      },
-      {
-        "pinyin": "ni dao huo che zhan le ma?",
-        "hanzi": "你到火车站了吗？"
-      },
-      {
-        "pinyin": "ni zai jia li ma?",
-        "hanzi": "你在家里吗？"
-      },
-      {
-        "pinyin": "shang dian li you hen duo ren.",
-        "hanzi": "商店里有很多人。"
-      },
-      {
-        "pinyin": "ni jia qian mian you chao shi ma?",
-        "hanzi": "你家前面有超市吗？"
-      },
-      {
-        "pinyin": "yin hang zai chao shi de qian mian.",
-        "hanzi": "银行在超市的前面。"
-      },
-      {
-        "pinyin": "zhuo zi shang you shen me?",
-        "hanzi": "桌子上有什么？"
-      },
-      {
-        "pinyin": "xiao mao zai yi zi shang ne.",
-        "hanzi": "小猫在椅子上呢。"
-      },
-      {
-        "pinyin": "chuang xia you yi ge xiang zi.",
-        "hanzi": "床下有一个箱子。"
-      },
-      {
-        "pinyin": "kan, lou xia zhan zhe yi ge nv har.",
-        "hanzi": "看，楼下站着一个女孩儿。"
-      },
-      {
-        "pinyin": "xia ge xing qi yi jian.",
-        "hanzi": "下个星期一见。"
-      },
-      {
-        "pinyin": "xing qi yi wo yao qu shang hai.",
-        "hanzi": "星期一我要去上海。"
-      },
-      {
-        "pinyin": "shang ge yue wo qu le bei jing.",
-        "hanzi": "上个月我去了北京。"
-      },
-      {
-        "pinyin": "ni de sheng ri shi ji yue ji hao?",
-        "hanzi": "你的生日是几月几号？"
-      },
-      {
-        "pinyin": "zhong wu wo qu fan dian chi fan.",
-        "hanzi": "中午我去饭店吃饭。"
-      },
-      {
-        "pinyin": "zhe jia dian zhong wu guan men, zhen qi guai.",
-        "hanzi": "这家店中午关门，真奇怪。"
-      },
-      {
-        "pinyin": "zuo tian ni shang han yu ke le ma?",
-        "hanzi": "昨天你上汉语课了吗？"
-      },
-      {
-        "pinyin": "zuo tian bu shang ban, wo zai jia da sao fang jian le.",
-        "hanzi": "昨天不上班，我在家打扫房间了。"
-      }
-    ],
-    "Mission 6": [],
-    "Mission 7": [],
-    "Mission 8": [],
-    "Mission 9": [],
-    "Mission 10": [],
-    "Mission 11": [],
-    "Mission 12": [],
-    "Mission 13": [],
-    "Mission 14": []
+    ]
   },
-  "HSK2": {
-    "Mission 1": [],
-    "Mission 2": [],
-    "Mission 3": [],
-    "Mission 4": [],
-    "Mission 5": [],
-    "Mission 6": [],
-    "Mission 7": [],
-    "Mission 8": [],
-    "Mission 9": [],
-    "Mission 10": [],
-    "Mission 11": [],
-    "Mission 12": [],
-    "Mission 13": [],
-    "Mission 14": []
-  },
-  "HSK3": {
-    "Mission 1": [],
-    "Mission 2": [],
-    "Mission 3": [],
-    "Mission 4": [],
-    "Mission 5": [],
-    "Mission 6": [],
-    "Mission 7": [],
-    "Mission 8": [],
-    "Mission 9": [],
-    "Mission 10": [],
-    "Mission 11": [],
-    "Mission 12": [],
-    "Mission 13": [],
-    "Mission 14": [],
-    "Mission 15": [],
-    "Mission 16": [],
-    "Mission 17": [],
-    "Mission 18": [],
-    "Mission 19": [],
-    "Mission 20": [],
-    "Mission 21": [],
-    "Mission 22": [],
-    "Mission 23": [],
-    "Mission 24": [],
-    "Mission 25": [],
-    "Mission 26": []
-  },
-  "HSK4": {
-    "Mission 1": [],
-    "Mission 2": [],
-    "Mission 3": [],
-    "Mission 4": [],
-    "Mission 5": [],
-    "Mission 6": [],
-    "Mission 7": [],
-    "Mission 8": [],
-    "Mission 9": [],
-    "Mission 10": [],
-    "Mission 11": [],
-    "Mission 12": [],
-    "Mission 13": [],
-    "Mission 14": [],
-    "Mission 15": [],
-    "Mission 16": [],
-    "Mission 17": [],
-    "Mission 18": [],
-    "Mission 19": [],
-    "Mission 20": [],
-    "Mission 21": [],
-    "Mission 22": [],
-    "Mission 23": [],
-    "Mission 24": [],
-    "Mission 25": [],
-    "Mission 26": [],
-    "Mission 27": [],
-    "Mission 28": [],
-    "Mission 29": [],
-    "Mission 30": [],
-    "Mission 31": [],
-    "Mission 32": [],
-    "Mission 33": [],
-    "Mission 34": [],
-    "Mission 35": [],
-    "Mission 36": [],
-    "Mission 37": [],
-    "Mission 38": [],
-    "Mission 39": [],
-    "Mission 40": [],
-    "Mission 41": [],
-    "Mission 42": [],
-    "Mission 43": [],
-    "Mission 44": [],
-    "Mission 45": [],
-    "Mission 46": [],
-    "Mission 47": [],
-    "Mission 48": [],
-    "Mission 49": [],
-    "Mission 50": [],
-    "Mission 51": [],
-    "Mission 52": [],
-    "Mission 53": [],
-    "Mission 54": [],
-    "Mission 55": [],
-    "Mission 56": []
+  {
+    "HSK Level": 2,
+    "Missions": [
+      {
+        "Mission": 1,
+        "Terms": [
+          {
+            "hanzi": "我的爸爸会做饭。",
+            "pinyin": "wo de ba ba hui zuo fan.",
+            "saved": false
+          },
+          {
+            "hanzi": "我不会游泳。",
+            "pinyin": "wo bu hui you yong.",
+            "saved": false
+          }
+        ]
+      }
+    ]
   }
-}
+]
