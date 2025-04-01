@@ -121,7 +121,10 @@ fn main() -> Result<(), Box<dyn Error>> {
                 levels
             }
             MenuState::Mission(level) => {
-                let mut missions: Vec<MenuOption> = hsk_levels[*level - 1]
+                let mut missions: Vec<MenuOption> = hsk_levels
+                    .iter()
+                    .find(|hsk| hsk.level == *level as i8)
+                    .unwrap()
                     .missions
                     .iter()
                     .map(|mission| MenuOption::Mission(mission.id.to_string(), level.to_string()))
@@ -149,17 +152,19 @@ fn main() -> Result<(), Box<dyn Error>> {
                 history.push(MenuState::Mission(level.parse()?));
             }
             MenuOption::Mission(ref mission, ref level) => {
-                let lvl_idx = level.parse::<usize>()? - 1;
-                let mission_idx = mission.parse::<usize>()? - 1;
-                let mut terms: Vec<&mut Term> = hsk_levels[lvl_idx].missions[mission_idx]
+                let mut terms: Vec<&mut Term> = hsk_levels
+                    .iter_mut()
+                    .find(|hsk| hsk.level == level.parse::<i8>().unwrap())
+                    .unwrap()
+                    .missions
+                    .iter_mut()
+                    .find(|m| m.id == mission.parse::<i8>().unwrap())
+                    .unwrap()
                     .terms
                     .iter_mut()
                     .collect();
-                start_practice(
-                    &(lvl_idx + 1).to_string(),
-                    &(mission_idx + 1).to_string(),
-                    &mut terms,
-                )?;
+
+                start_practice(level, mission, &mut terms)?;
                 break;
             }
             MenuOption::SavedTerms => {
